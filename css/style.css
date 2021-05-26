@@ -7,9 +7,9 @@ body{
 header h1{
 	color: white;
 	text-align: center;
-	vertical-align: middle;
-	margin: auto;
-}
+	padding: 0px;
+	}
+
 header{
 	width: 100%;
 	height: 500px;
@@ -18,16 +18,29 @@ header{
  	background-size: cover;
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 3), rgba(0, 0, 0, 0.3)), url("../img/header.jpg");
 }
+.title{
+	max-width: 780px;
+	margin: 0 auto;
+	padding-top: 205px;
+	color: white;
+	text-align: center
+}
 
+.profilebox{
+	margin: 0 auto;
+}
 
+.face{
+	text-align: center;
+	margin-top: -50px;
+}
 
-main img.profile{
+img.profile{
 	border-radius: 100%;
 	width: 100px;
 	border: 1px solid white;
-	text-align: center;
-	margin: auto;
-}
+	margin: 0 auto;
+	}
 
 h1{
 	font-size: 36px;
@@ -41,7 +54,12 @@ h2{
 	font-family: 'Roboto Slab', serif;
 	color: rgba(0, 0, 0, 0.25);
 }
-
+.profiletext{
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 24px;
+	text-align: center;
+}
 
 
 /*main text elements*/
@@ -49,14 +67,28 @@ h2{
 main{
 	max-width: 66.67%;
 	margin: 0 auto;
-	padding: 60px 0px 0px 40px;
 	}
 
 main img{
 	max-width: 100%;
 }
 
-p, li{
+ol ::marker {
+  font-size: 36px;
+  color: rgba(0, 0, 0, 0.25);
+  font-family: 'Roboto Slab', serif;
+ }
+
+li{
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 32px;
+	color: rgb(51,51,51);
+	padding-left: 40px;
+	padding-top: 60px;
+	}
+
+p{
 	font-size: 18px;
 	font-family: 'Source Sans Pro', sans-serif;
 	line-height: 32px;
@@ -71,6 +103,17 @@ a:hover{
 	text-decoration: underline;
 }
 
+
+p.caption {
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
+	margin-bottom: 120px
+}
+
+p.rec {
+	font-weight: bold;
+}
 
 /*Footer Elements*/
 
@@ -92,14 +135,4 @@ footer p{
     vertical-align: bottom;
     position: relative;
     top: 10px;
-}
-p.caption {
-	color: #999999;
-	font-style: italic;
-	margin-top: 0;
-	margin-bottom: 120px
-}
-
-p.rec {
-	font-weight: bold;
 }
