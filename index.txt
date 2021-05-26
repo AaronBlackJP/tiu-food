@@ -30,7 +30,7 @@
 			</div>
 			<p class="profiletext">
 				<strong>Aaron Black</strong><br>
-				<i>May 27th, 2021</i>
+				<i>May 8th, 2021</i>
 			</p>
 			
 
